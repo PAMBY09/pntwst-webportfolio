@@ -15,20 +15,14 @@
 	background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 1600 800'%3E%3Cg %3E%3Cpolygon fill='%231d1d1d' points='1600 160 0 460 0 350 1600 50'/%3E%3Cpolygon fill='%233a3a3a' points='1600 260 0 560 0 450 1600 150'/%3E%3Cpolygon fill='%23565656' points='1600 360 0 660 0 550 1600 250'/%3E%3Cpolygon fill='%23737373' points='1600 460 0 760 0 650 1600 350'/%3E%3Cpolygon fill='%23909090' points='1600 800 0 800 0 750 1600 450'/%3E%3C/g%3E%3C/svg%3E");
 	background-attachment: fixed;
 	background-size: cover;
-	/*width: 89.8rem;*/
-/*	background-image: url("https://wallpapercave.com/wp/wp6354182.jpg");
-	background-repeat: no-repeat;
-	background-blend-mode: darken;
-	background-size: cover;
-	height: 40rem;*/
 }
 
-#landing h1{
+#landing h2{
 	font-family: 'Inconsolata', monospace;
 	font-weight: bold;
 	color: white;
 }
-#landing h2{
+#landing h3{
 	font-family: 'Inconsolata', monospace;
 	font-weight: bold;
 	color: white;
@@ -37,12 +31,11 @@
 #landing p{
 	font-family: 'Libre Baskerville', serif;
 	color: white;
-	font-size: 25px;
+	font-size: 20px;
 }
 
 #img{
-	border-radius: 20px;
-	height: 400px;
+	height: 200px;
 	width: auto;
 }
 
@@ -56,6 +49,11 @@
 	border-radius: 20px;
 }
 
+#profile{
+	height: 400px;
+	width: auto;
+}
+
 #carousel2{
 	border: 2px solid black;
 	border-radius: 20px;
@@ -66,17 +64,16 @@
 	border-radius: 20px;
 }
 
-#tools{
-
-}
-
 #html{
 	height: 280px;
 	width: auto;
 }
 
 .gray{
-	background-color: gray;
+	background-color: #262626;
+	background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 1000'%3E%3Cg %3E%3Ccircle fill='%23262626' cx='50' cy='0' r='50'/%3E%3Cg fill='%23292929' %3E%3Ccircle cx='0' cy='50' r='50'/%3E%3Ccircle cx='100' cy='50' r='50'/%3E%3C/g%3E%3Ccircle fill='%232b2b2b' cx='50' cy='100' r='50'/%3E%3Cg fill='%232e2e2e' %3E%3Ccircle cx='0' cy='150' r='50'/%3E%3Ccircle cx='100' cy='150' r='50'/%3E%3C/g%3E%3Ccircle fill='%23303030' cx='50' cy='200' r='50'/%3E%3Cg fill='%23333333' %3E%3Ccircle cx='0' cy='250' r='50'/%3E%3Ccircle cx='100' cy='250' r='50'/%3E%3C/g%3E%3Ccircle fill='%23353535' cx='50' cy='300' r='50'/%3E%3Cg fill='%23383838' %3E%3Ccircle cx='0' cy='350' r='50'/%3E%3Ccircle cx='100' cy='350' r='50'/%3E%3C/g%3E%3Ccircle fill='%233b3b3b' cx='50' cy='400' r='50'/%3E%3Cg fill='%233d3d3d' %3E%3Ccircle cx='0' cy='450' r='50'/%3E%3Ccircle cx='100' cy='450' r='50'/%3E%3C/g%3E%3Ccircle fill='%23404040' cx='50' cy='500' r='50'/%3E%3Cg fill='%23434343' %3E%3Ccircle cx='0' cy='550' r='50'/%3E%3Ccircle cx='100' cy='550' r='50'/%3E%3C/g%3E%3Ccircle fill='%23464646' cx='50' cy='600' r='50'/%3E%3Cg fill='%23484848' %3E%3Ccircle cx='0' cy='650' r='50'/%3E%3Ccircle cx='100' cy='650' r='50'/%3E%3C/g%3E%3Ccircle fill='%234b4b4b' cx='50' cy='700' r='50'/%3E%3Cg fill='%234e4e4e' %3E%3Ccircle cx='0' cy='750' r='50'/%3E%3Ccircle cx='100' cy='750' r='50'/%3E%3C/g%3E%3Ccircle fill='%23515151' cx='50' cy='800' r='50'/%3E%3Cg fill='%23535353' %3E%3Ccircle cx='0' cy='850' r='50'/%3E%3Ccircle cx='100' cy='850' r='50'/%3E%3C/g%3E%3Ccircle fill='%23565656' cx='50' cy='900' r='50'/%3E%3Cg fill='%23595959' %3E%3Ccircle cx='0' cy='950' r='50'/%3E%3Ccircle cx='100' cy='950' r='50'/%3E%3C/g%3E%3Ccircle fill='%235C5C5C' cx='50' cy='1000' r='50'/%3E%3C/g%3E%3C/svg%3E");
+	background-attachment: fixed;
+	background-size: contain;
 }
 
 .form-group1{
@@ -86,4 +83,33 @@
 .mycard{
 	border: 2px solid black !important;
 	border-radius: 20px;
+}
+
+footer{
+	background-color: #262626;
+	background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 1000'%3E%3Cg %3E%3Ccircle fill='%23262626' cx='50' cy='0' r='50'/%3E%3Cg fill='%23292929' %3E%3Ccircle cx='0' cy='50' r='50'/%3E%3Ccircle cx='100' cy='50' r='50'/%3E%3C/g%3E%3Ccircle fill='%232b2b2b' cx='50' cy='100' r='50'/%3E%3Cg fill='%232e2e2e' %3E%3Ccircle cx='0' cy='150' r='50'/%3E%3Ccircle cx='100' cy='150' r='50'/%3E%3C/g%3E%3Ccircle fill='%23303030' cx='50' cy='200' r='50'/%3E%3Cg fill='%23333333' %3E%3Ccircle cx='0' cy='250' r='50'/%3E%3Ccircle cx='100' cy='250' r='50'/%3E%3C/g%3E%3Ccircle fill='%23353535' cx='50' cy='300' r='50'/%3E%3Cg fill='%23383838' %3E%3Ccircle cx='0' cy='350' r='50'/%3E%3Ccircle cx='100' cy='350' r='50'/%3E%3C/g%3E%3Ccircle fill='%233b3b3b' cx='50' cy='400' r='50'/%3E%3Cg fill='%233d3d3d' %3E%3Ccircle cx='0' cy='450' r='50'/%3E%3Ccircle cx='100' cy='450' r='50'/%3E%3C/g%3E%3Ccircle fill='%23404040' cx='50' cy='500' r='50'/%3E%3Cg fill='%23434343' %3E%3Ccircle cx='0' cy='550' r='50'/%3E%3Ccircle cx='100' cy='550' r='50'/%3E%3C/g%3E%3Ccircle fill='%23464646' cx='50' cy='600' r='50'/%3E%3Cg fill='%23484848' %3E%3Ccircle cx='0' cy='650' r='50'/%3E%3Ccircle cx='100' cy='650' r='50'/%3E%3C/g%3E%3Ccircle fill='%234b4b4b' cx='50' cy='700' r='50'/%3E%3Cg fill='%234e4e4e' %3E%3Ccircle cx='0' cy='750' r='50'/%3E%3Ccircle cx='100' cy='750' r='50'/%3E%3C/g%3E%3Ccircle fill='%23515151' cx='50' cy='800' r='50'/%3E%3Cg fill='%23535353' %3E%3Ccircle cx='0' cy='850' r='50'/%3E%3Ccircle cx='100' cy='850' r='50'/%3E%3C/g%3E%3Ccircle fill='%23565656' cx='50' cy='900' r='50'/%3E%3Cg fill='%23595959' %3E%3Ccircle cx='0' cy='950' r='50'/%3E%3Ccircle cx='100' cy='950' r='50'/%3E%3C/g%3E%3Ccircle fill='%235C5C5C' cx='50' cy='1000' r='50'/%3E%3C/g%3E%3C/svg%3E");
+	background-attachment: fixed;
+	background-size: contain;
+}
+
+footer > a{
+	color: white;
+	text-decoration: none;
+}
+
+#projects h2{
+	font-family: 'Anton', sans-serif;
+}
+
+#tools h2{
+	font-family: 'Anton', sans-serif;
+}
+
+#contact h2{
+	font-family: 'Anton', sans-serif;
+}
+
+#projects h5{
+	color: white;
+	font-family: 'Bree Serif', serif;
 }

@@ -13,6 +13,14 @@
 
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap" rel="stylesheet">
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital@1&display=swap" rel="stylesheet">
 
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
@@ -39,14 +47,14 @@
 		</div>
 	</section>
 
-	<section class="container-fluid row col-12" id="landing">
-			<div class="col-12 col-md-6 text-center py-5">
-				<img id="img" class="img-fluid" src="./images/IMG_3999.JPG">
-				<h1>Harris Daniel S. Lacia</h1>
-				<h2>Full-stack Web Developer</h2>
+	<section class="container-fluid row col-12 p-0 m-0" id="landing">
+			<div class="col-12 col-lg-6 text-center py-5">
+				<img id="profile" class="img-fluid" src="./images/IMG_3999.JPG">
+				<h2>Harris Daniel S. Lacia</h2>
+				<h3>Full-stack Web Developer</h3>
 
 			</div>
-			<div class=" text-center my-auto col-12 col-md-6">
+			<div class="text-center my-auto col-12 col-lg-6">
 				<p>Hi I am Harris Daniel S. Larcia. I am a graduate of BS Electronics Engineering and I am currently applied in Pointwest Innovations Corporation. I am taking a bootcamp under Zuitt and I learned how to do HTML, CSS, and Bootstrap.</p>
 			</div>
 	</section>
@@ -182,7 +190,13 @@
 		<div class="row justify-content-center text-center gap-3">
 			<h2 class="mt-5 text-white">Tools</h2>
 
-				<div class="mycard card col-12 col-md-3">
+				<img id="img" src="./images/projects/html.png" alt="HTML">
+
+				<img id="img" src="./images/projects/css.png" class="card-img-top" alt="CSS">
+
+				<img id="img" src="./images/projects/boot.png" alt="Bootstrap">
+				
+				<!-- <div class="mycard card col-12 col-md-3">
 				  <img id="html" src="https://www.clipartmax.com/png/small/419-4197822_html-black-html-5-icone.png" class="card-img-top" alt="HTML">
 				  <div class="card-body">
 				  	<h3>HTML</h3>
@@ -201,7 +215,7 @@
 				  <div class="card-body">
 				  	<h3>BOOTSTRAP</h3>
 				  </div>
-				</div>
+				</div> -->
 		</div>
 	</section>
 
@@ -212,7 +226,7 @@
 				  <h2 class="my-2 text-center text-white">Contact Details</h2>
 				  <div>
 				      <form class="text-center">
-				        <div class="form-group1 justify-content-center bg-white rounded p-2 text-white">
+				        <div class="form-group1 justify-content-center bg-white rounded p-2 text-dark">
 				          <div class="py-2">
 				            <label for="Name">Name</label>
 				            <input type="text" class="form-control" id="Name" placeholder="Juan Dela Cruz">
@@ -225,15 +239,7 @@
 				            <label for="Contact">Contact Number</label>
 				            <input type="text" class="form-control" id="Contact" placeholder="0123456789">
 				          </div>
-				          <div class="form-group text-white">
-				            <label for="concern">Concern</label>
-				            <select class="form-control" id="concern">
-				              <option>Quotation</option>
-				              <option>Appointment</option>
-				              <option>Follow-Up</option>
-				            </select>
-				          </div>
-				          <div class="form-group text-white">
+				          <div class="form-group text-dark">
 				            <label for="Message">Message</label>
 				            <textarea class="form-control" id="Message" rows="3"></textarea>
 				          </div>
@@ -248,6 +254,10 @@
 					</div>
 				</div>
 	</section>
+
+	<footer>
+			<a class="text-center" href="#landing">Back to top</a>
+	</footer>
 
 	<div class="modal" id="sendemail" tabindex="-1">
 	  <div class="modal-dialog">
@@ -265,8 +275,6 @@
 	    </div>
 	  </div>
 	</div>
-
-
 
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 
