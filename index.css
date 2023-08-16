@@ -23,6 +23,23 @@
 	height: 40rem;*/
 }
 
+#landing h1{
+	font-family: 'Inconsolata', monospace;
+	font-weight: bold;
+	color: white;
+}
+#landing h2{
+	font-family: 'Inconsolata', monospace;
+	font-weight: bold;
+	color: white;
+}
+
+#landing p{
+	font-family: 'Libre Baskerville', serif;
+	color: white;
+	font-size: 25px;
+}
+
 #img{
 	border-radius: 20px;
 	height: 400px;
@@ -56,4 +73,17 @@
 #html{
 	height: 280px;
 	width: auto;
+}
+
+.gray{
+	background-color: gray;
+}
+
+.form-group1{
+	border: 2px solid black;
+}
+
+.mycard{
+	border: 2px solid black !important;
+	border-radius: 20px;
 }
