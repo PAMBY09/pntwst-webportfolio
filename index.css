@@ -44,14 +44,14 @@
 	font-weight: bold;
 }
 
-#carousel1{
-	border: 2px solid black;
-	border-radius: 20px;
-}
-
 #profile{
 	height: 400px;
 	width: auto;
+}
+
+#carousel1{
+	border: 2px solid black;
+	border-radius: 20px;
 }
 
 #carousel2{
