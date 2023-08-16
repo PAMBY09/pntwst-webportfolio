@@ -1,0 +1,59 @@
+*{
+	padding: 0;
+	margin: 0;
+	scroll-behavior: smooth;
+}
+
+#navbar{
+	position: sticky;
+	top: 0px;
+	z-index: 100;
+}
+
+#landing{
+	background-color: #000000;
+	background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 1600 800'%3E%3Cg %3E%3Cpolygon fill='%231d1d1d' points='1600 160 0 460 0 350 1600 50'/%3E%3Cpolygon fill='%233a3a3a' points='1600 260 0 560 0 450 1600 150'/%3E%3Cpolygon fill='%23565656' points='1600 360 0 660 0 550 1600 250'/%3E%3Cpolygon fill='%23737373' points='1600 460 0 760 0 650 1600 350'/%3E%3Cpolygon fill='%23909090' points='1600 800 0 800 0 750 1600 450'/%3E%3C/g%3E%3C/svg%3E");
+	background-attachment: fixed;
+	background-size: cover;
+	/*width: 89.8rem;*/
+/*	background-image: url("https://wallpapercave.com/wp/wp6354182.jpg");
+	background-repeat: no-repeat;
+	background-blend-mode: darken;
+	background-size: cover;
+	height: 40rem;*/
+}
+
+#img{
+	border-radius: 20px;
+	height: 400px;
+	width: auto;
+}
+
+#projects p{
+	color: black;
+	font-weight: bold;
+}
+
+#carousel1{
+	border: 2px solid black;
+	border-radius: 20px;
+}
+
+#carousel2{
+	border: 2px solid black;
+	border-radius: 20px;
+}
+
+#carousel3{
+	border: 2px solid black;
+	border-radius: 20px;
+}
+
+#tools{
+
+}
+
+#html{
+	height: 280px;
+	width: auto;
+}
